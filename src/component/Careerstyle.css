@@ -1,0 +1,23 @@
+.carrers{
+    width: 100%;
+  height: max-content;
+}
+
+.carrer-intro{
+
+    background-image: linear-gradient(white, yellow);
+    width:30%;
+    height: 20%;
+   
+
+}
+
+.car-img{
+    width: 40%;
+    margin-left: 50%;    
+    
+}
+.tav{
+    width: 100%;
+    height: 50%;
+}

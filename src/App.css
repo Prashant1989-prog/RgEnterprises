@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.nav-ul-p
+{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 30px;
+ box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+ width: 95px;
+ height: 80px;
+ border-radius: 13px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+}
+
+.icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-item-i:hover{
+  font-size: large;
+  background-color: yellow;
+  list-style-type: none;
+}
+
+
+
+
+.whatappimg{
+  position: fixed; right: 1%; top: 90%; z-index: 50; width: 180px;
+}
+
+.wha{
+  padding-right: 50%;
+}
+
+.ulink{
+  padding-left: -10px;
+ 
+}
+
+/* .wha:visited{
+  color: blue;
+  vertical-align: bottom;
+} */
+
+.nav-ul li{
+  display: inline;
+  padding: 10px;
+  background-color: aliceblue;
+  position: 100% 0%;
+}
+
+.navBarSection{
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 5px 0 rgba(0,0, 0, 0.25);
+  width: 95%;
+  height: 80px;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  margin-bottom: 0px;
+ background-color: aqua;
+ padding: 1px; 
+}
+
+.contact{
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+
+}
+
+.Tables{
+  width: 100%;
+  height: 10px;
+}
+
+.contact{
+ width: 60%;
+ width:600 px
+  height=450 px
+
+  loading="lazy"
+}
+
+
+.heads{
+  padding: 10px;
+}
+
+.linkca {
+  width: 60%;
+}
+.copyright{
+
+  display: flex;
+  background-color: blue;
+  padding: 15px 0 0px 0px
+  /* width: 100%;
+  height: 10px;
+  padding :10px 0 0 0;
+ 
+  padding-top: 100px; 
+  background-color: blue; */
+  
+}
+.cop{
+  width: 50%;
+  text-align: left;
+}
+.design{
+ padding-left: 30%;
+  
+}
+.home{
+  padding-top: 10px;
+  width: 100%;
+  height: 500px;
+  
+}
+
+.tableContact{
+  width: 100%;
+  height: 100%;
+  
+}
+.mapss{
+  padding-left: 100px;
+  
+}
+.sliderimg{
+  
+    width: 70%;
+    height: 400px;
+     
+}
+.LOGO{
+  width: 60px; 
+         height: 50px; 
+         display: block; 
+         border-radius: 19px;
+         text-indent: -9999px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.contactbox{
+  background-image: linear-gradient(blue, yellow);
+  padding: 10px;
+
+}
+.input-contact{
+margin: 10px;
+}
+
+
+/* .contactright{
+  padding-left: 200%;
+  padding-right: 50px;
+  padding-bottom: 300px;
+} */
